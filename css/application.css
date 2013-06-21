@@ -1,0 +1,95 @@
+/*
+ * light = #3a5ca6
+ * dark = #18235b
+*/
+
+body {
+    background-color: #3a5ca6;
+    font-family: 'Lucida Console';
+}
+
+h1 {
+    font-size: 1.2em;
+    color: #ffffff;
+    border: 1px dotted;
+    padding: 1%;
+    margin-right: 60%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+img {
+    vertical-align: -25%;
+    margin-right: 7%;
+}
+
+ul {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+}
+
+.connectleft {
+    border-top: 1px dotted;
+    border-color: #ffffff;
+    margin-right: 50%;
+    margin-left: 30%;
+    position: absolute;
+    z-index: -1;
+    top: 9%;
+    left: 10%;
+    right: 0;
+}
+
+.link { 
+    border: 1px dotted; 
+    border-color: #ffffff;
+    list-style: none;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #3a5ca6;
+    color: #ffffff;
+}
+
+.highlight {
+    border: 1px solid; 
+    padding-top: 1.5%;
+    background-color: #18235b;
+    color: #eeeeee;
+}
+
+.highlight-right {
+    margin-left: 43%;
+    margin-right: 28%;
+}
+
+.highlight-left {
+    margin-left: 28%;
+    margin-right: 43%;
+}
+
+.left {
+    margin-left: 30%;
+    margin-right: 45%;
+}
+
+.right {
+    margin-left: 45%;
+    margin-right: 30%;
+}
+
+.contact {
+    padding: 0.2%;
+}
+
+body:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 1px dotted;
+    border-color: #ffffff;
+}
